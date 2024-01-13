@@ -1,0 +1,10 @@
+
+# Dependency directories
+node_modules
+
+
+# testing resources
+logs
+allure-results
+allure-report
+
