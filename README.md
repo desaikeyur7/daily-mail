@@ -1,4 +1,4 @@
-**Appium WebdriverIO V8 with Typescript in BDD style using Cucumber**
+**Appium WebdriverIO V8 BDD Style framework using Typescript and Cucumber**
 
 # This Framework is based on:
 WebdriverIO: 8.x
