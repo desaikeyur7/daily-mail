@@ -8,3 +8,9 @@ logs
 allure-results
 allure-report
 
+#environment variables stored in .env
+.env
+
+#DS store
+.DS_Store
+
