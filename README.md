@@ -51,11 +51,16 @@ git clone https://github.com/desaikeyur7/daily-mail
   
   **Add Android environment variables:**
   
-  export ANDROID_HOME=/Users/macbook/Library/Android/sdk/
-  export ANDROID_SDK_ROOT=/Users/macbook/Library/Android/sdk
+  export ANDROID_HOME=/Users/<yourMacbookUserName>/Library/Android/sdk/
+  
+  export ANDROID_SDK_ROOT=/Users/<yourMacbookUserName>/Library/Android/sdk
+  
   export PATH=$PATH:$ANDROID_HOME/platform-tools:$PATH
+  
   export PATH=$PATH:$ANDROID_HOME/tools:$PATH
+  
   export PATH=$ANDROID_HOME/build-tools/34.0.0:$PATH
+  
   export PATH=$ANDROID_HOME/build-tools/34.0.0/bin:$PATH
   **Source the changes:**
   source ~/.zshenv
