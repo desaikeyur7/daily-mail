@@ -62,13 +62,15 @@ git clone https://github.com/desaikeyur7/daily-mail
   export PATH=$ANDROID_HOME/build-tools/34.0.0:$PATH
   
   export PATH=$ANDROID_HOME/build-tools/34.0.0/bin:$PATH
+  
   **Source the changes:**
   source ~/.zshenv
+  
   **Test changes:**
   echo $ANDROID_HOME
   adb devices - should return list of devices attached.
   
- ** Note:** the same changes can be added to .zshrc or .bashprofile file as well.
+ **Note:** the same changes can be added to .zshrc or .bashprofile file as well.
 
 ## Setup Android Emulator
   This has to be setup via Configure option in Android studio.
